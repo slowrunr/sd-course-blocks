@@ -1,0 +1,53 @@
+.nav-section {
+  font-family: "Manrope", sans-serif;
+  background: white;
+  margin-top: 32.82px;
+}
+
+.nav-container {
+  width: 1151.35px;
+  height: 25.18px;
+  margin: 0 auto;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  float: right;
+  margin-top: 0.18px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+}
+
+.nav__link {
+  margin-right: 60px;
+  display: inline-block;
+  font-weight: 400;
+  height: 25px;
+  line-height: 25px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav__link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  color: black;
+  opacity: 0.5;
+}
